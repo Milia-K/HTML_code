@@ -1,0 +1,209 @@
+
+a:visited {
+color: purple;
+    }
+a:active{
+    color: rgb(23, 22, 22);
+    font-weight:500;
+    font-size: larger;
+    }
+    
+#shipping {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #B36050;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F1D3B9;
+}
+.navigation{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 61px;
+    background-color: #F6F4EC;
+    border-radius: 0px;
+    
+}
+.menu{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color:  #B4604D;
+    padding: 15px;
+}
+#logo {
+    width: 120px;
+    height: 56px;
+    padding-left: 15%;
+}
+.main{
+    display: flex;
+    flex-direction: column ;
+    width: 100%;
+    height: 100%;
+    background-color: #A9AE8D;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.tit {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #B45F4D;
+}
+.shop {
+    height: 100%;
+    width: 100%;
+    background: #F6F4EC;
+}
+.product {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 30px 100px 70px;
+    padding-bottom: 100px;
+}
+.desert {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    text-decoration: none;
+}
+.feel{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color:#DF9B7A;
+    width: 1219px;
+    color: #F6F4EC ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.story {
+    height: 1069px;
+    width: 100vw;
+    background: #F1D3B9;
+    border-radius: 0px;
+}
+p::first-letter{
+    font-size: 1.86rem;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.12rem;
+}
+.story1 {
+    position: relative;
+    border: 5px;
+    right: 0%;
+    width: 416px;
+    height: 335px;
+    background: #F8F8F8;
+    border-radius: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #B45F4D;
+    padding: 50px 50px 100px 50px;
+    margin: -633px 10px 141px 841px;
+}
+.girl1{
+    position: relative;
+    top: 20px;
+    left: 183px;
+    width: 632px;
+    height: 947px;
+    margin: 20px 625px 61px 183px;
+}
+.girl2 {
+    position: relative;
+    width: 339px;
+    height: 509px;
+    margin: -674px -376px 25px 100px;
+}
+.follow{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #B45F4D;
+    background-color: white;
+}
+.review{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    background: #F6F4EC;
+    border-radius: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B45F4D; 
+    background-color: #F6F4EC;
+    padding: 15px;
+}
+.info{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 25px;
+}
